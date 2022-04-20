@@ -1,29 +1,62 @@
-plugins {
-    id 'java'
-}
+import java.nio.charset.StandardCharsets
 
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+apply plugin: 'java'
+apply plugin: 'idea'    // Optional using for IntelliJ IDEA
+apply plugin: 'io.qameta.allure'
+
+
+ext {
+    encoding = StandardCharsets.UTF_8.name()
+}
+
+
+configurations {
+    testCompile
+}
+
+[compileJava, compileTestJava]*.sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.targetCompatibility = 1.8
+[compileJava, compileTestJava]*.options.collect { options -> options.debug = true }
+[compileJava, compileTestJava]*.options.collect { options -> options.encoding = encoding }
+
 repositories {
+    jcenter()
     mavenCentral()
+    maven {
+        url "https://plugins.gradle.org/m2/"
+    }
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    testImplementation(
-            'org.junit.jupiter:junit-jupiter-params:5.8.2'
-    )
 
     /*
- * awaitility
- */
-    implementation group: 'io.rest-assured', name: 'rest-assured', version: '4.4.0'
+    * JUnit5 - Jupiter: API, Engine
+    */
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.8.2')
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
+    testImplementation('org.junit.jupiter:junit-jupiter-engine:5.8.2')
 
     /*
-* Allure
-*/
+    * JUnit5 - Vintage
+    */
+    // https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine
+    testImplementation('org.junit.vintage:junit-vintage-engine:5.8.2')
+
+    /*
+    * JUnit5 - Platform: Runner
+    * Enable use of the JUnitPlatform Runner within the IntelliJ
+    */
+    // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner
+    testImplementation('org.junit.platform:junit-platform-runner:1.8.2')
+
+    /*
+    * Allure
+    */
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-junit5
     testImplementation('io.qameta.allure:allure-junit5:2.13.1')
 
@@ -33,13 +66,154 @@ dependencies {
     // https://mvnrepository.com/artifact/com.github.automatedowl/allure-environment-writer
     implementation 'com.github.automatedowl:allure-environment-writer:1.0.0'
 
+    implementation group: 'io.rest-assured', name: 'rest-assured', version: '4.4.0'
+
     /*
-   * assertj
-   */
+    * assertj
+    */
     implementation 'org.assertj:assertj-core:3.21.0'
+
+    /*
+    * jackson
+    */
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+
+    /*
+* artsok
+*/
+    testImplementation group: 'io.github.artsok', name: 'rerunner-jupiter', version: '2.1.6'
+    /*
+    * json
+    */
+    implementation group: 'org.json', name: 'json', version: '20210307'
+    /*
+     * Logging
+     */
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation('org.slf4j:slf4j-api:1.7.32')
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12
+    testImplementation('org.slf4j:slf4j-log4j12:1.7.32')
+
 
 }
 
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.8.1"
+    }
+}
+
+/*
+* Allure Configuration
+*/
+allure {
+    version = '2.13.1'
+    aspectjweaver = true
+    autoconfigure = false
+    aspectjVersion = '1.9.1'
+    useJUnit5 { version = '2.13.1' }
+}
+
+tasks.withType(Test) {
+
+
+    /*
+* Enable JUnit Platform (JUnit 5) support, default is JUnit
+*/
+//        useJUnitPlatform() {
+//            /*
+//        * Filter by engines
+//        */
+//            includeEngines 'junit-jupiter'
+//            //excludeEngines 'junit-vintage'
+//
+//            /*
+//        * Filter by tags
+//        */
+////        includeTags 'fast', 'smoke'
+//            //excludeTags 'slow', 'ci'
+//
+//    }
+
+
+    /*
+    * Make failing tests do not fail the task
+    */
+    ignoreFailures = true
+
+    /*
+    * If any upToDateWhen spec returns false, the task is considered out of date.
+    * If they return true, Gradle does the normal behavior of checking input/output files.
+    */
+    outputs.upToDateWhen { false }
+
+    /*
+    * To show standard out and standard error of the test JVM(s) on the console
+    */
+    testLogging.showStandardStreams = true
+
+    /*
+    *  Want to display the following test events
+    */
+    testLogging { events 'passed', 'skipped', 'failed' }
+
+    /*
+    * When the JVM starts, it uses the JVMs platform encoding
+    */
+
+    systemProperty('file.encoding', encoding)
+
+    /*
+    * Set BUILD_URL to JVM
+    */
+    systemProperty('BUILD_URL', System.getenv()['BUILD_URL'])
+
+    /*
+    * To make the Gradle JVM system properties available to tests
+    */
+    systemProperties = System.getProperties() as Map<String, ?>
+    systemProperties.put("env", findProperty("env"))
+    systemProperties.put("browser", findProperty("browser"))
+    systemProperties.put("lang", findProperty("lang"))
+    systemProperties.put("seleniumEnv", findProperty("seleniumEnv"))
+    systemProperties.put("task", findProperty("task"))
+//    systemProperty "junit.jupiter.execution.parallel.enabled", "true"
+
+
+}
 test {
-    useJUnitPlatform()
+    systemProperty "file.encoding", "utf-8"
+    systemProperty "env", findProperty("env")
+    systemProperty "browser", findProperty("browser")
+    systemProperty "lang", findProperty("lang")
+    systemProperty "task", findProperty("task")
+
+    useJUnitPlatform {
+        includeTags 'smoke'
+        excludeTags 'exclude', 'locale-ru'
+    }
+}
+
+
+task startByTagTask(type: Test) {
+    systemProperty "file.encoding", "utf-8"
+    switch (systemProperties.get("task")) {
+
+        case "smoke":
+            useJUnitPlatform {
+                includeTags 'smoke'
+                excludeTags 'exclude'
+                println "smoke tag"
+            }; break
+
+        default: println "test type is not chosen"
+
+    }
 }

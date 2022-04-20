@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Run tests
-        run: gradle test -i
+        run: gradle test -Ptask=smoke task -i
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()

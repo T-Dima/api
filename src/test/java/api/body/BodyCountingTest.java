@@ -8,6 +8,7 @@ import io.qameta.allure.TmsLink;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.greaterThan;
@@ -16,6 +17,7 @@ import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 public class BodyCountingTest extends BaseApiTest {
 
     static int bodySizeCounter = 1;
+    @Tag("smoke")
     @Description("The test verifying length of body")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("The test verifying length of body")

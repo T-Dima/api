@@ -7,6 +7,7 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.TmsLink;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 import utils.pojo.Article;
 
 import static io.restassured.RestAssured.given;
@@ -15,6 +16,7 @@ public class ObjectChecking extends BaseApiTest {
 
     static int bodySizeObjectCounter = 1;
 
+    @Tag("smoke")
     @Description("The test is verifying an Object")
     @Severity(SeverityLevel.NORMAL)
     @DisplayName("The test is verifying an Object")
