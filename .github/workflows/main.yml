@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run tests
     steps:
+      - uses: actions/checkout@v1
       - name: Run tests
         run: gradle test -i
       - name: Get Allure history
