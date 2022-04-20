@@ -32,6 +32,12 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.github.automatedowl/allure-environment-writer
     implementation 'com.github.automatedowl:allure-environment-writer:1.0.0'
+
+    /*
+   * assertj
+   */
+    implementation 'org.assertj:assertj-core:3.21.0'
+
 }
 
 test {
