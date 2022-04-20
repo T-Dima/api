@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="api.body.BodyCountingTest" tests="120" skipped="0" failures="58" errors="0" timestamp="2022-04-20T15:03:23" hostname="MacBook-Pro-Di.local" time="64.673">
+<testsuite name="api.body.BodyCountingTest" tests="120" skipped="0" failures="58" errors="0" timestamp="2022-04-20T15:32:01" hostname="MacBook-Pro-Di.local" time="60.729">
   <properties/>
-  <testcase name="repetition 1 of 120" classname="api.body.BodyCountingTest" time="2.146"/>
-  <testcase name="repetition 2 of 120" classname="api.body.BodyCountingTest" time="0.197"/>
-  <testcase name="repetition 3 of 120" classname="api.body.BodyCountingTest" time="0.2"/>
-  <testcase name="repetition 4 of 120" classname="api.body.BodyCountingTest" time="0.171"/>
-  <testcase name="repetition 5 of 120" classname="api.body.BodyCountingTest" time="0.256">
+  <testcase name="repetition 1 of 120" classname="api.body.BodyCountingTest" time="1.931"/>
+  <testcase name="repetition 2 of 120" classname="api.body.BodyCountingTest" time="0.148"/>
+  <testcase name="repetition 3 of 120" classname="api.body.BodyCountingTest" time="0.156"/>
+  <testcase name="repetition 4 of 120" classname="api.body.BodyCountingTest" time="0.176"/>
+  <testcase name="repetition 5 of 120" classname="api.body.BodyCountingTest" time="0.196">
     <failure message="java.lang.AssertionError: [body size id equal 147] &#10;Expecting actual:&#10;  147&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 147] 
 Expecting actual:
   147
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,15 +144,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 6 of 120" classname="api.body.BodyCountingTest" time="0.2"/>
-  <testcase name="repetition 7 of 120" classname="api.body.BodyCountingTest" time="0.214">
+  <testcase name="repetition 6 of 120" classname="api.body.BodyCountingTest" time="0.191"/>
+  <testcase name="repetition 7 of 120" classname="api.body.BodyCountingTest" time="0.188">
     <failure message="java.lang.AssertionError: [body size id equal 145] &#10;Expecting actual:&#10;  145&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 145] 
 Expecting actual:
   145
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -284,15 +284,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 8 of 120" classname="api.body.BodyCountingTest" time="0.187"/>
-  <testcase name="repetition 9 of 120" classname="api.body.BodyCountingTest" time="0.191">
+  <testcase name="repetition 8 of 120" classname="api.body.BodyCountingTest" time="0.147"/>
+  <testcase name="repetition 9 of 120" classname="api.body.BodyCountingTest" time="0.142">
     <failure message="java.lang.AssertionError: [body size id equal 136] &#10;Expecting actual:&#10;  136&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 136] 
 Expecting actual:
   136
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -424,14 +424,14 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 10 of 120" classname="api.body.BodyCountingTest" time="0.192">
+  <testcase name="repetition 10 of 120" classname="api.body.BodyCountingTest" time="0.161">
     <failure message="java.lang.AssertionError: [body size id equal 129] &#10;Expecting actual:&#10;  129&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 129] 
 Expecting actual:
   129
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -563,17 +563,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 11 of 120" classname="api.body.BodyCountingTest" time="0.183"/>
-  <testcase name="repetition 12 of 120" classname="api.body.BodyCountingTest" time="0.145"/>
-  <testcase name="repetition 13 of 120" classname="api.body.BodyCountingTest" time="0.163"/>
-  <testcase name="repetition 14 of 120" classname="api.body.BodyCountingTest" time="0.147">
+  <testcase name="repetition 11 of 120" classname="api.body.BodyCountingTest" time="0.135"/>
+  <testcase name="repetition 12 of 120" classname="api.body.BodyCountingTest" time="0.147"/>
+  <testcase name="repetition 13 of 120" classname="api.body.BodyCountingTest" time="0.172"/>
+  <testcase name="repetition 14 of 120" classname="api.body.BodyCountingTest" time="0.183">
     <failure message="java.lang.AssertionError: [body size id equal 144] &#10;Expecting actual:&#10;  144&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 144] 
 Expecting actual:
   144
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -705,17 +705,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 15 of 120" classname="api.body.BodyCountingTest" time="0.16"/>
-  <testcase name="repetition 16 of 120" classname="api.body.BodyCountingTest" time="0.21"/>
-  <testcase name="repetition 17 of 120" classname="api.body.BodyCountingTest" time="0.198">
+  <testcase name="repetition 15 of 120" classname="api.body.BodyCountingTest" time="0.135"/>
+  <testcase name="repetition 16 of 120" classname="api.body.BodyCountingTest" time="0.337"/>
+  <testcase name="repetition 17 of 120" classname="api.body.BodyCountingTest" time="0.176">
     <failure message="java.lang.AssertionError: [body size id equal 136] &#10;Expecting actual:&#10;  136&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 136] 
 Expecting actual:
   136
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -845,15 +845,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 18 of 120" classname="api.body.BodyCountingTest" time="0.166">
+  <testcase name="repetition 18 of 120" classname="api.body.BodyCountingTest" time="0.164">
     <failure message="java.lang.AssertionError: [body size id equal 111] &#10;Expecting actual:&#10;  111&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 111] 
 Expecting actual:
   111
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -983,15 +983,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 19 of 120" classname="api.body.BodyCountingTest" time="0.145">
+  <testcase name="repetition 19 of 120" classname="api.body.BodyCountingTest" time="0.279">
     <failure message="java.lang.AssertionError: [body size id equal 143] &#10;Expecting actual:&#10;  143&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 143] 
 Expecting actual:
   143
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1121,17 +1121,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 20 of 120" classname="api.body.BodyCountingTest" time="0.155"/>
-  <testcase name="repetition 21 of 120" classname="api.body.BodyCountingTest" time="0.168"/>
-  <testcase name="repetition 22 of 120" classname="api.body.BodyCountingTest" time="0.167">
+  <testcase name="repetition 20 of 120" classname="api.body.BodyCountingTest" time="0.187"/>
+  <testcase name="repetition 21 of 120" classname="api.body.BodyCountingTest" time="0.337"/>
+  <testcase name="repetition 22 of 120" classname="api.body.BodyCountingTest" time="0.174">
     <failure message="java.lang.AssertionError: [body size id equal 128] &#10;Expecting actual:&#10;  128&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 128] 
 Expecting actual:
   128
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1261,16 +1261,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 23 of 120" classname="api.body.BodyCountingTest" time="0.137"/>
-  <testcase name="repetition 24 of 120" classname="api.body.BodyCountingTest" time="0.214">
+  <testcase name="repetition 23 of 120" classname="api.body.BodyCountingTest" time="0.136"/>
+  <testcase name="repetition 24 of 120" classname="api.body.BodyCountingTest" time="0.141">
     <failure message="java.lang.AssertionError: [body size id equal 144] &#10;Expecting actual:&#10;  144&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 144] 
 Expecting actual:
   144
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1400,15 +1400,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 25 of 120" classname="api.body.BodyCountingTest" time="0.157">
+  <testcase name="repetition 25 of 120" classname="api.body.BodyCountingTest" time="0.196">
     <failure message="java.lang.AssertionError: [body size id equal 147] &#10;Expecting actual:&#10;  147&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 147] 
 Expecting actual:
   147
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1539,16 +1539,16 @@ to be greater than:
 </failure>
   </testcase>
   <testcase name="repetition 26 of 120" classname="api.body.BodyCountingTest" time="0.149"/>
-  <testcase name="repetition 27 of 120" classname="api.body.BodyCountingTest" time="0.151"/>
-  <testcase name="repetition 28 of 120" classname="api.body.BodyCountingTest" time="0.188">
+  <testcase name="repetition 27 of 120" classname="api.body.BodyCountingTest" time="0.135"/>
+  <testcase name="repetition 28 of 120" classname="api.body.BodyCountingTest" time="0.147">
     <failure message="java.lang.AssertionError: [body size id equal 141] &#10;Expecting actual:&#10;  141&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 141] 
 Expecting actual:
   141
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1678,15 +1678,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 29 of 120" classname="api.body.BodyCountingTest" time="0.169">
+  <testcase name="repetition 29 of 120" classname="api.body.BodyCountingTest" time="0.177">
     <failure message="java.lang.AssertionError: [body size id equal 147] &#10;Expecting actual:&#10;  147&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 147] 
 Expecting actual:
   147
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1816,15 +1816,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 30 of 120" classname="api.body.BodyCountingTest" time="0.189">
+  <testcase name="repetition 30 of 120" classname="api.body.BodyCountingTest" time="0.15">
     <failure message="java.lang.AssertionError: [body size id equal 140] &#10;Expecting actual:&#10;  140&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 140] 
 Expecting actual:
   140
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -1954,17 +1954,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 31 of 120" classname="api.body.BodyCountingTest" time="0.173"/>
-  <testcase name="repetition 32 of 120" classname="api.body.BodyCountingTest" time="0.188"/>
-  <testcase name="repetition 33 of 120" classname="api.body.BodyCountingTest" time="0.168">
+  <testcase name="repetition 31 of 120" classname="api.body.BodyCountingTest" time="0.166"/>
+  <testcase name="repetition 32 of 120" classname="api.body.BodyCountingTest" time="0.17"/>
+  <testcase name="repetition 33 of 120" classname="api.body.BodyCountingTest" time="0.154">
     <failure message="java.lang.AssertionError: [body size id equal 136] &#10;Expecting actual:&#10;  136&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 136] 
 Expecting actual:
   136
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2094,26 +2094,26 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 34 of 120" classname="api.body.BodyCountingTest" time="0.169"/>
-  <testcase name="repetition 35 of 120" classname="api.body.BodyCountingTest" time="0.14"/>
-  <testcase name="repetition 36 of 120" classname="api.body.BodyCountingTest" time="0.156"/>
-  <testcase name="repetition 37 of 120" classname="api.body.BodyCountingTest" time="0.179"/>
-  <testcase name="repetition 38 of 120" classname="api.body.BodyCountingTest" time="0.136"/>
-  <testcase name="repetition 39 of 120" classname="api.body.BodyCountingTest" time="0.22"/>
-  <testcase name="repetition 40 of 120" classname="api.body.BodyCountingTest" time="0.177"/>
-  <testcase name="repetition 41 of 120" classname="api.body.BodyCountingTest" time="0.162"/>
-  <testcase name="repetition 42 of 120" classname="api.body.BodyCountingTest" time="0.18"/>
-  <testcase name="repetition 43 of 120" classname="api.body.BodyCountingTest" time="0.182"/>
-  <testcase name="repetition 44 of 120" classname="api.body.BodyCountingTest" time="0.193"/>
-  <testcase name="repetition 45 of 120" classname="api.body.BodyCountingTest" time="0.149">
+  <testcase name="repetition 34 of 120" classname="api.body.BodyCountingTest" time="0.188"/>
+  <testcase name="repetition 35 of 120" classname="api.body.BodyCountingTest" time="0.25"/>
+  <testcase name="repetition 36 of 120" classname="api.body.BodyCountingTest" time="0.149"/>
+  <testcase name="repetition 37 of 120" classname="api.body.BodyCountingTest" time="0.192"/>
+  <testcase name="repetition 38 of 120" classname="api.body.BodyCountingTest" time="0.311"/>
+  <testcase name="repetition 39 of 120" classname="api.body.BodyCountingTest" time="0.137"/>
+  <testcase name="repetition 40 of 120" classname="api.body.BodyCountingTest" time="0.19"/>
+  <testcase name="repetition 41 of 120" classname="api.body.BodyCountingTest" time="0.137"/>
+  <testcase name="repetition 42 of 120" classname="api.body.BodyCountingTest" time="0.146"/>
+  <testcase name="repetition 43 of 120" classname="api.body.BodyCountingTest" time="0.138"/>
+  <testcase name="repetition 44 of 120" classname="api.body.BodyCountingTest" time="0.158"/>
+  <testcase name="repetition 45 of 120" classname="api.body.BodyCountingTest" time="0.14">
     <failure message="java.lang.AssertionError: [body size id equal 121] &#10;Expecting actual:&#10;  121&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 121] 
 Expecting actual:
   121
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2243,15 +2243,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 46 of 120" classname="api.body.BodyCountingTest" time="0.17">
+  <testcase name="repetition 46 of 120" classname="api.body.BodyCountingTest" time="0.131">
     <failure message="java.lang.AssertionError: [body size id equal 113] &#10;Expecting actual:&#10;  113&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 113] 
 Expecting actual:
   113
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2381,19 +2381,19 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 47 of 120" classname="api.body.BodyCountingTest" time="0.14"/>
-  <testcase name="repetition 48 of 120" classname="api.body.BodyCountingTest" time="0.186"/>
-  <testcase name="repetition 49 of 120" classname="api.body.BodyCountingTest" time="0.17"/>
-  <testcase name="repetition 50 of 120" classname="api.body.BodyCountingTest" time="0.135"/>
-  <testcase name="repetition 51 of 120" classname="api.body.BodyCountingTest" time="0.151">
+  <testcase name="repetition 47 of 120" classname="api.body.BodyCountingTest" time="0.138"/>
+  <testcase name="repetition 48 of 120" classname="api.body.BodyCountingTest" time="0.166"/>
+  <testcase name="repetition 49 of 120" classname="api.body.BodyCountingTest" time="0.148"/>
+  <testcase name="repetition 50 of 120" classname="api.body.BodyCountingTest" time="0.179"/>
+  <testcase name="repetition 51 of 120" classname="api.body.BodyCountingTest" time="0.164">
     <failure message="java.lang.AssertionError: [body size id equal 122] &#10;Expecting actual:&#10;  122&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 122] 
 Expecting actual:
   122
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2523,17 +2523,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 52 of 120" classname="api.body.BodyCountingTest" time="0.15"/>
-  <testcase name="repetition 53 of 120" classname="api.body.BodyCountingTest" time="0.15"/>
-  <testcase name="repetition 54 of 120" classname="api.body.BodyCountingTest" time="0.166">
+  <testcase name="repetition 52 of 120" classname="api.body.BodyCountingTest" time="0.163"/>
+  <testcase name="repetition 53 of 120" classname="api.body.BodyCountingTest" time="0.211"/>
+  <testcase name="repetition 54 of 120" classname="api.body.BodyCountingTest" time="0.137">
     <failure message="java.lang.AssertionError: [body size id equal 131] &#10;Expecting actual:&#10;  131&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 131] 
 Expecting actual:
   131
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2663,15 +2663,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 55 of 120" classname="api.body.BodyCountingTest" time="0.14">
+  <testcase name="repetition 55 of 120" classname="api.body.BodyCountingTest" time="0.165">
     <failure message="java.lang.AssertionError: [body size id equal 147] &#10;Expecting actual:&#10;  147&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 147] 
 Expecting actual:
   147
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2801,16 +2801,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 56 of 120" classname="api.body.BodyCountingTest" time="0.148"/>
-  <testcase name="repetition 57 of 120" classname="api.body.BodyCountingTest" time="0.162">
+  <testcase name="repetition 56 of 120" classname="api.body.BodyCountingTest" time="0.167"/>
+  <testcase name="repetition 57 of 120" classname="api.body.BodyCountingTest" time="0.19">
     <failure message="java.lang.AssertionError: [body size id equal 131] &#10;Expecting actual:&#10;  131&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 131] 
 Expecting actual:
   131
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -2940,15 +2940,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 58 of 120" classname="api.body.BodyCountingTest" time="0.154">
+  <testcase name="repetition 58 of 120" classname="api.body.BodyCountingTest" time="0.147">
     <failure message="java.lang.AssertionError: [body size id equal 123] &#10;Expecting actual:&#10;  123&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 123] 
 Expecting actual:
   123
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3078,16 +3078,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 59 of 120" classname="api.body.BodyCountingTest" time="0.207"/>
-  <testcase name="repetition 60 of 120" classname="api.body.BodyCountingTest" time="0.149">
+  <testcase name="repetition 59 of 120" classname="api.body.BodyCountingTest" time="0.17"/>
+  <testcase name="repetition 60 of 120" classname="api.body.BodyCountingTest" time="0.139">
     <failure message="java.lang.AssertionError: [body size id equal 131] &#10;Expecting actual:&#10;  131&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 131] 
 Expecting actual:
   131
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3217,18 +3217,18 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 61 of 120" classname="api.body.BodyCountingTest" time="0.14"/>
-  <testcase name="repetition 62 of 120" classname="api.body.BodyCountingTest" time="0.15"/>
-  <testcase name="repetition 63 of 120" classname="api.body.BodyCountingTest" time="0.171"/>
-  <testcase name="repetition 64 of 120" classname="api.body.BodyCountingTest" time="0.194">
+  <testcase name="repetition 61 of 120" classname="api.body.BodyCountingTest" time="0.138"/>
+  <testcase name="repetition 62 of 120" classname="api.body.BodyCountingTest" time="0.149"/>
+  <testcase name="repetition 63 of 120" classname="api.body.BodyCountingTest" time="0.15"/>
+  <testcase name="repetition 64 of 120" classname="api.body.BodyCountingTest" time="0.178">
     <failure message="java.lang.AssertionError: [body size id equal 128] &#10;Expecting actual:&#10;  128&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 128] 
 Expecting actual:
   128
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3358,16 +3358,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 65 of 120" classname="api.body.BodyCountingTest" time="0.158"/>
-  <testcase name="repetition 66 of 120" classname="api.body.BodyCountingTest" time="0.15">
+  <testcase name="repetition 65 of 120" classname="api.body.BodyCountingTest" time="0.152"/>
+  <testcase name="repetition 66 of 120" classname="api.body.BodyCountingTest" time="0.151">
     <failure message="java.lang.AssertionError: [body size id equal 147] &#10;Expecting actual:&#10;  147&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 147] 
 Expecting actual:
   147
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3497,16 +3497,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 67 of 120" classname="api.body.BodyCountingTest" time="0.157"/>
-  <testcase name="repetition 68 of 120" classname="api.body.BodyCountingTest" time="0.15">
+  <testcase name="repetition 67 of 120" classname="api.body.BodyCountingTest" time="0.164"/>
+  <testcase name="repetition 68 of 120" classname="api.body.BodyCountingTest" time="0.149">
     <failure message="java.lang.AssertionError: [body size id equal 131] &#10;Expecting actual:&#10;  131&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 131] 
 Expecting actual:
   131
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3636,16 +3636,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 69 of 120" classname="api.body.BodyCountingTest" time="0.127"/>
-  <testcase name="repetition 70 of 120" classname="api.body.BodyCountingTest" time="0.156">
+  <testcase name="repetition 69 of 120" classname="api.body.BodyCountingTest" time="0.168"/>
+  <testcase name="repetition 70 of 120" classname="api.body.BodyCountingTest" time="0.148">
     <failure message="java.lang.AssertionError: [body size id equal 127] &#10;Expecting actual:&#10;  127&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 127] 
 Expecting actual:
   127
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3775,15 +3775,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 71 of 120" classname="api.body.BodyCountingTest" time="0.163">
+  <testcase name="repetition 71 of 120" classname="api.body.BodyCountingTest" time="0.182">
     <failure message="java.lang.AssertionError: [body size id equal 138] &#10;Expecting actual:&#10;  138&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 138] 
 Expecting actual:
   138
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -3913,19 +3913,19 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 72 of 120" classname="api.body.BodyCountingTest" time="0.15"/>
-  <testcase name="repetition 73 of 120" classname="api.body.BodyCountingTest" time="0.158"/>
-  <testcase name="repetition 74 of 120" classname="api.body.BodyCountingTest" time="0.152"/>
-  <testcase name="repetition 75 of 120" classname="api.body.BodyCountingTest" time="0.16"/>
-  <testcase name="repetition 76 of 120" classname="api.body.BodyCountingTest" time="0.163">
+  <testcase name="repetition 72 of 120" classname="api.body.BodyCountingTest" time="0.144"/>
+  <testcase name="repetition 73 of 120" classname="api.body.BodyCountingTest" time="0.148"/>
+  <testcase name="repetition 74 of 120" classname="api.body.BodyCountingTest" time="0.139"/>
+  <testcase name="repetition 75 of 120" classname="api.body.BodyCountingTest" time="0.154"/>
+  <testcase name="repetition 76 of 120" classname="api.body.BodyCountingTest" time="0.174">
     <failure message="java.lang.AssertionError: [body size id equal 102] &#10;Expecting actual:&#10;  102&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 102] 
 Expecting actual:
   102
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4055,16 +4055,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 77 of 120" classname="api.body.BodyCountingTest" time="0.153"/>
-  <testcase name="repetition 78 of 120" classname="api.body.BodyCountingTest" time="0.128">
+  <testcase name="repetition 77 of 120" classname="api.body.BodyCountingTest" time="0.168"/>
+  <testcase name="repetition 78 of 120" classname="api.body.BodyCountingTest" time="0.147">
     <failure message="java.lang.AssertionError: [body size id equal 117] &#10;Expecting actual:&#10;  117&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 117] 
 Expecting actual:
   117
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4194,20 +4194,20 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 79 of 120" classname="api.body.BodyCountingTest" time="0.255"/>
-  <testcase name="repetition 80 of 120" classname="api.body.BodyCountingTest" time="0.3"/>
-  <testcase name="repetition 81 of 120" classname="api.body.BodyCountingTest" time="0.219"/>
-  <testcase name="repetition 82 of 120" classname="api.body.BodyCountingTest" time="0.251"/>
-  <testcase name="repetition 83 of 120" classname="api.body.BodyCountingTest" time="0.46"/>
-  <testcase name="repetition 84 of 120" classname="api.body.BodyCountingTest" time="0.255">
+  <testcase name="repetition 79 of 120" classname="api.body.BodyCountingTest" time="0.128"/>
+  <testcase name="repetition 80 of 120" classname="api.body.BodyCountingTest" time="0.16"/>
+  <testcase name="repetition 81 of 120" classname="api.body.BodyCountingTest" time="0.258"/>
+  <testcase name="repetition 82 of 120" classname="api.body.BodyCountingTest" time="0.178"/>
+  <testcase name="repetition 83 of 120" classname="api.body.BodyCountingTest" time="0.13"/>
+  <testcase name="repetition 84 of 120" classname="api.body.BodyCountingTest" time="0.135">
     <failure message="java.lang.AssertionError: [body size id equal 134] &#10;Expecting actual:&#10;  134&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 134] 
 Expecting actual:
   134
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4337,17 +4337,17 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 85 of 120" classname="api.body.BodyCountingTest" time="0.228"/>
-  <testcase name="repetition 86 of 120" classname="api.body.BodyCountingTest" time="0.47"/>
-  <testcase name="repetition 87 of 120" classname="api.body.BodyCountingTest" time="1.265">
+  <testcase name="repetition 85 of 120" classname="api.body.BodyCountingTest" time="13.523"/>
+  <testcase name="repetition 86 of 120" classname="api.body.BodyCountingTest" time="0.163"/>
+  <testcase name="repetition 87 of 120" classname="api.body.BodyCountingTest" time="0.149">
     <failure message="java.lang.AssertionError: [body size id equal 106] &#10;Expecting actual:&#10;  106&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 106] 
 Expecting actual:
   106
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4477,15 +4477,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 88 of 120" classname="api.body.BodyCountingTest" time="0.248">
+  <testcase name="repetition 88 of 120" classname="api.body.BodyCountingTest" time="0.188">
     <failure message="java.lang.AssertionError: [body size id equal 106] &#10;Expecting actual:&#10;  106&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 106] 
 Expecting actual:
   106
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4615,18 +4615,18 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 89 of 120" classname="api.body.BodyCountingTest" time="1.262"/>
-  <testcase name="repetition 90 of 120" classname="api.body.BodyCountingTest" time="0.273"/>
-  <testcase name="repetition 91 of 120" classname="api.body.BodyCountingTest" time="0.238"/>
-  <testcase name="repetition 92 of 120" classname="api.body.BodyCountingTest" time="0.339">
+  <testcase name="repetition 89 of 120" classname="api.body.BodyCountingTest" time="0.13"/>
+  <testcase name="repetition 90 of 120" classname="api.body.BodyCountingTest" time="0.16"/>
+  <testcase name="repetition 91 of 120" classname="api.body.BodyCountingTest" time="0.132"/>
+  <testcase name="repetition 92 of 120" classname="api.body.BodyCountingTest" time="0.237">
     <failure message="java.lang.AssertionError: [body size id equal 135] &#10;Expecting actual:&#10;  135&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 135] 
 Expecting actual:
   135
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4756,18 +4756,18 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 93 of 120" classname="api.body.BodyCountingTest" time="0.289"/>
-  <testcase name="repetition 94 of 120" classname="api.body.BodyCountingTest" time="0.26"/>
-  <testcase name="repetition 95 of 120" classname="api.body.BodyCountingTest" time="0.458"/>
-  <testcase name="repetition 96 of 120" classname="api.body.BodyCountingTest" time="0.251">
+  <testcase name="repetition 93 of 120" classname="api.body.BodyCountingTest" time="0.121"/>
+  <testcase name="repetition 94 of 120" classname="api.body.BodyCountingTest" time="0.122"/>
+  <testcase name="repetition 95 of 120" classname="api.body.BodyCountingTest" time="0.112"/>
+  <testcase name="repetition 96 of 120" classname="api.body.BodyCountingTest" time="0.289">
     <failure message="java.lang.AssertionError: [body size id equal 128] &#10;Expecting actual:&#10;  128&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 128] 
 Expecting actual:
   128
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -4897,16 +4897,16 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 97 of 120" classname="api.body.BodyCountingTest" time="0.256"/>
-  <testcase name="repetition 98 of 120" classname="api.body.BodyCountingTest" time="0.25">
+  <testcase name="repetition 97 of 120" classname="api.body.BodyCountingTest" time="0.154"/>
+  <testcase name="repetition 98 of 120" classname="api.body.BodyCountingTest" time="0.129">
     <failure message="java.lang.AssertionError: [body size id equal 120] &#10;Expecting actual:&#10;  120&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 120] 
 Expecting actual:
   120
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5036,15 +5036,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 99 of 120" classname="api.body.BodyCountingTest" time="0.246">
+  <testcase name="repetition 99 of 120" classname="api.body.BodyCountingTest" time="0.17">
     <failure message="java.lang.AssertionError: [body size id equal 109] &#10;Expecting actual:&#10;  109&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 109] 
 Expecting actual:
   109
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5174,15 +5174,15 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 100 of 120" classname="api.body.BodyCountingTest" time="0.264">
+  <testcase name="repetition 100 of 120" classname="api.body.BodyCountingTest" time="0.292">
     <failure message="java.lang.AssertionError: [body size id equal 146] &#10;Expecting actual:&#10;  146&#10;to be greater than:&#10;  150&#10;" type="java.lang.AssertionError">java.lang.AssertionError: [body size id equal 146] 
 Expecting actual:
   146
 to be greater than:
   150
 
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:28)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:36)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5312,10 +5312,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 101 of 120" classname="api.body.BodyCountingTest" time="0.234">
+  <testcase name="repetition 101 of 120" classname="api.body.BodyCountingTest" time="0.459">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5445,10 +5445,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 102 of 120" classname="api.body.BodyCountingTest" time="0.449">
+  <testcase name="repetition 102 of 120" classname="api.body.BodyCountingTest" time="0.158">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5578,10 +5578,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 103 of 120" classname="api.body.BodyCountingTest" time="1.269">
+  <testcase name="repetition 103 of 120" classname="api.body.BodyCountingTest" time="0.154">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5711,10 +5711,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 104 of 120" classname="api.body.BodyCountingTest" time="0.471">
+  <testcase name="repetition 104 of 120" classname="api.body.BodyCountingTest" time="0.135">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5844,10 +5844,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 105 of 120" classname="api.body.BodyCountingTest" time="0.451">
+  <testcase name="repetition 105 of 120" classname="api.body.BodyCountingTest" time="0.117">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -5977,10 +5977,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 106 of 120" classname="api.body.BodyCountingTest" time="2.64">
+  <testcase name="repetition 106 of 120" classname="api.body.BodyCountingTest" time="0.134">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6110,10 +6110,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 107 of 120" classname="api.body.BodyCountingTest" time="1.272">
+  <testcase name="repetition 107 of 120" classname="api.body.BodyCountingTest" time="0.19">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6243,10 +6243,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 108 of 120" classname="api.body.BodyCountingTest" time="0.257">
+  <testcase name="repetition 108 of 120" classname="api.body.BodyCountingTest" time="0.151">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6376,10 +6376,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 109 of 120" classname="api.body.BodyCountingTest" time="0.226">
+  <testcase name="repetition 109 of 120" classname="api.body.BodyCountingTest" time="0.155">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6509,10 +6509,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 110 of 120" classname="api.body.BodyCountingTest" time="1.224">
+  <testcase name="repetition 110 of 120" classname="api.body.BodyCountingTest" time="0.158">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6642,10 +6642,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 111 of 120" classname="api.body.BodyCountingTest" time="0.244">
+  <testcase name="repetition 111 of 120" classname="api.body.BodyCountingTest" time="0.168">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6775,10 +6775,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 112 of 120" classname="api.body.BodyCountingTest" time="0.252">
+  <testcase name="repetition 112 of 120" classname="api.body.BodyCountingTest" time="0.153">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -6908,10 +6908,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 113 of 120" classname="api.body.BodyCountingTest" time="0.237">
+  <testcase name="repetition 113 of 120" classname="api.body.BodyCountingTest" time="0.155">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7041,10 +7041,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 114 of 120" classname="api.body.BodyCountingTest" time="0.321">
+  <testcase name="repetition 114 of 120" classname="api.body.BodyCountingTest" time="0.143">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7174,10 +7174,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 115 of 120" classname="api.body.BodyCountingTest" time="0.264">
+  <testcase name="repetition 115 of 120" classname="api.body.BodyCountingTest" time="0.165">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7307,10 +7307,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 116 of 120" classname="api.body.BodyCountingTest" time="0.255">
+  <testcase name="repetition 116 of 120" classname="api.body.BodyCountingTest" time="0.164">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7440,10 +7440,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 117 of 120" classname="api.body.BodyCountingTest" time="0.246">
+  <testcase name="repetition 117 of 120" classname="api.body.BodyCountingTest" time="0.146">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7573,10 +7573,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 118 of 120" classname="api.body.BodyCountingTest" time="0.239">
+  <testcase name="repetition 118 of 120" classname="api.body.BodyCountingTest" time="0.159">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7706,10 +7706,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 119 of 120" classname="api.body.BodyCountingTest" time="0.263">
+  <testcase name="repetition 119 of 120" classname="api.body.BodyCountingTest" time="0.133">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)
@@ -7839,10 +7839,10 @@ to be greater than:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="repetition 120 of 120" classname="api.body.BodyCountingTest" time="0.238">
+  <testcase name="repetition 120 of 120" classname="api.body.BodyCountingTest" time="0.158">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:26)
-	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at api.body.BodyCountingTest.countBody(BodyCountingTest.java:34)
+	at jdk.internal.reflect.GeneratedMethodAccessor68.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725)

@@ -1,6 +1,11 @@
 package api.body;
 
 import api.BaseApiTest;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.TmsLink;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 import utils.pojo.Article;
 
@@ -10,6 +15,10 @@ public class ObjectChecking extends BaseApiTest {
 
     static int bodySizeObjectCounter = 1;
 
+    @Description("The test is verifying an Object")
+    @Severity(SeverityLevel.NORMAL)
+    @DisplayName("The test is verifying an Object")
+    @TmsLink("TTTT-5401")
     @RepeatedTest(120)
     public void objectChecking() {
         given()

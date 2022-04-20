@@ -1,0 +1,13 @@
+*.iml
+.idea
+out
+.gradle
+allure-results/*
+gradle
+gradlew
+build/
+.DS_Store
+gradle/
+allure-report/
+.allure
+src/main/java/international/utils/TestEnv.java
