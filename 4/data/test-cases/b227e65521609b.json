@@ -1,0 +1,67 @@
+{
+  "uid" : "b227e65521609b",
+  "name" : "repetition 95 of 120",
+  "fullName" : "api.body.BodyCountingTest.countBody",
+  "historyId" : "34b7e0185486ffd2a6fa7bb5acbaab9",
+  "time" : {
+    "start" : 1650471153618,
+    "stop" : 1650471153762,
+    "duration" : 144
+  },
+  "description" : "The test verifying length of body",
+  "descriptionHtml" : "<p>The test verifying length of body</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-959"
+  }, {
+    "name" : "thread",
+    "value" : "2452@fv-az39-959.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "api.body.BodyCountingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.body.BodyCountingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "countBody"
+  }, {
+    "name" : "suite",
+    "value" : "api.body.BodyCountingTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TTTT-5406",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b227e65521609b.json",
+  "parameterValues" : [ ]
+}

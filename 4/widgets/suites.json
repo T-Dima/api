@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "6d383a995e8f114c9b1136380d17864d",
+    "name" : "api.body.BodyCountingTest",
+    "statistic" : {
+      "failed" : 38,
+      "broken" : 20,
+      "skipped" : 0,
+      "passed" : 62,
+      "unknown" : 0,
+      "total" : 120
+    }
+  }, {
+    "uid" : "1a3d2553cd72aaa5f9cf03377af4a284",
+    "name" : "api.body.ObjectChecking",
+    "statistic" : {
+      "failed" : 20,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 100,
+      "unknown" : 0,
+      "total" : 120
+    }
+  } ]
+}

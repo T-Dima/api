@@ -1,0 +1,67 @@
+{
+  "uid" : "6de56f6c0afb8f78",
+  "name" : "repetition 61 of 120",
+  "fullName" : "api.body.ObjectChecking.objectChecking",
+  "historyId" : "1b63f08e12d36a6033ae9eca925e9335",
+  "time" : {
+    "start" : 1650471162950,
+    "stop" : 1650471163021,
+    "duration" : 71
+  },
+  "description" : "The test is verifying an Object",
+  "descriptionHtml" : "<p>The test is verifying an Object</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-959"
+  }, {
+    "name" : "thread",
+    "value" : "2452@fv-az39-959.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "api.body.ObjectChecking"
+  }, {
+    "name" : "testClass",
+    "value" : "api.body.ObjectChecking"
+  }, {
+    "name" : "testMethod",
+    "value" : "objectChecking"
+  }, {
+    "name" : "suite",
+    "value" : "api.body.ObjectChecking"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TTTT-5401",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "6de56f6c0afb8f78.json",
+  "parameterValues" : [ ]
+}
